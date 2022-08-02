@@ -6,7 +6,7 @@ describe("DummyItemList", () => {
     render(<DummyItemList code={"saya"} name={"wdhaw"} />);
 
     const heading = screen.getByText("saya - wdhaw");
-    screen.debug();
+    // screen.debug();
 
     expect(heading).toBeInTheDocument();
   });
